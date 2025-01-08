@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"  ></script>
+</head>
+<body>
+    <div class="Regis">
+        <h1>Registration</h1>
+    <div class="division">
+        <div class="div01">
+            <form>
+                <label>Full Name</label><br>
+                <input type="text" placeholder="Enter your full name" id="fullname" required><br>
+                <label>Email</label><br>
+                <input type="email" placeholder="Enter your Email" id="email" required><br>
+                <label>Password</label><br>
+                <input type="password" placeholder="Enter your password" id="password" required>
+            </form>
+        </div>
+        <div class="div02">
+            <form>
+                <label>Last Name</label><br>
+                <input type="text" placeholder="Enter your Last name"><br>
+                <label>Number</label><br>
+                <input type="number" placeholder="Enter your Number" id="number" required><br>
+                <label>Conform Password</label><br>
+                <input type="password" placeholder="Conform your password" id="conformpassword" required>
+            </form>
+        </div>
+    </div>
+        <label><b>Gender</b></label><br>
+        <input type="radio" name="Male" value="Male">Male
+        <input type="radio" name="Female" value="Female">Female
+        <input type="radio" name="pns" value="pns">prefer not to say<br>
+        <button class="btn" onclick="submit()">Register</button>
+    </div>
+    
+</body>
+</html>
